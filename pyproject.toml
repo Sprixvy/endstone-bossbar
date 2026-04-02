@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "endstone-bossbar"
-version = "1.0.3"
+version = "1.0.0"
 description = "Create and modify boss bars on Endstone servers"
 authors = [{ name = "Sprixvy", email = "sprixvy@proton.me" }]
 
