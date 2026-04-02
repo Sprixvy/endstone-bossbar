@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-bossbar"
+version = "1.0.3"
+description = "Create and modify boss bars on Endstone servers"
+authors = [{ name = "Sprixvy", email = "sprixvy@proton.me" }]
+
+[project.entry-points."endstone"]
+bossbar = "endstone_bossbar:Bossbar"
